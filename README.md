@@ -1,6 +1,6 @@
 # tictactoe-game-js 🎮 ❌ ⭕
 
-[**Live Demo on GitHub Pages**] (https://nicowirtzbiki.github.io/tictactoe-game-js/)
+[**Live Demo on GitHub Pages**](https://nicowirtzbiki.github.io/tictactoe-game-js/)
 
 The Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
