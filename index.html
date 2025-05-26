@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+      <div id="playerNames">
+        <div>
+          <label id="labelPlayer1" for="player1">X</label>
+
+          <input type="text" id="player1" placeholder="Name of Player 1" />
+        </div>
+        <div>
+          <label id="labelPlayer2" for="player2">O</label>
+
+          <input type="text" id="player2" placeholder="Name of Player 2" />
+        </div>
+      </div>
+      <div>
+        <button id="startBtn" class="button">Start Game</button>
+      </div>
+      <div>
+        <p id="gameText"></p>
+      </div>
+      <div id="table">
+        <button id="sp1" data-value="1" class="tableSpace" disabled>T</button>
+        <button id="sp2" data-value="2" class="tableSpace" disabled>i</button>
+        <button id="sp3" data-value="3" class="tableSpace" disabled>C</button>
+        <button id="sp4" data-value="4" class="tableSpace" disabled>t</button>
+        <button id="sp5" data-value="5" class="tableSpace" disabled>a</button>
+        <button id="sp6" data-value="6" class="tableSpace" disabled>c</button>
+        <button id="sp7" data-value="7" class="tableSpace" disabled>T</button>
+        <button id="sp8" data-value="8" class="tableSpace" disabled>O</button>
+        <button id="sp9" data-value="9" class="tableSpace" disabled>E</button>
+      </div>
+
+      <div>
+        <button id="reStartBtn" class="button" style="display: none">
+          Start Over
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <p><strong>Tic Tac Toe</strong> by Nicole Wirtzbiki</p>
+        <br />
+        <p>
+          <a href="https://github.com/nicowirtzbiki/pig-game-js"
+            >See Code in Github Repository</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
